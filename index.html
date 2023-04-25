@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css"
+			integrity="sha512-YQlbvfX5C6Ym6fTUSZ9GZpyB3F92hmQAZTO5YjciedwAaGRI9ccNs4iw2QTCJiSPheUQZomZKHQtuwbHkA9lgw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="/css/styles.css" />
+		<title>Pixelsquad</title>
+	</head>
+	<body>
+		<header class="header py-3 position-fixed w-100">
+			<div class="container">
+				<div class="d-flex align-items-center justify-content-between">
+					<a href="/" class="main-logo"
+						><span class="sr-only">Logo Pixelsquad</span></a
+					>
+					<nav class="navigation d-none d-md-block">
+						<ul
+							class="list-unstyled d-flex align-items-center gap-1 gap-lg-4 nav"
+						>
+							<li>
+								<a href="#services" class="nav-link position-relative"
+									>Services</a
+								>
+							</li>
+							<li>
+								<a href="#portfolio" class="nav-link position-relative"
+									>portfolio</a
+								>
+							</li>
+							<li>
+								<a href="#marketing" class="nav-link position-relative"
+									>About</a
+								>
+							</li>
+							<li>
+								<a href="#" class="btn btn-accent position-relative"
+									><i class="far fa-bell fa-xs mr-3 text-accent"></i>
+									Available</a
+								>
+							</li>
+						</ul>
+					</nav>
+					<button class="border-0 bg-transparent d-md-none" id="menu"></button>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section
+				id="mobile-menu"
+				class="px-3 d-flex flex-column align-items-center d-md-none"
+			>
+				<div class="btn-mobile position-relative w-100 text-center py-4">
+					<a href="#" class="btn btn-accent position-relative py-2"
+						><i class="far fa-bell fa-xs mr-3 text-accent"></i> Available</a
+					>
+				</div>
+				<nav class="py-4 navigation d-flex align-items-center">
+					<ul class="d-flex flex-column align-items-center list-unstyled">
+						<li>
+							<a
+								href="#services"
+								class="text-decoration-none text-white d-block mb-4 fw-medium mobile-link"
+								>Services</a
+							>
+						</li>
+						<li>
+							<a
+								href="#portfolio"
+								class="text-decoration-none text-white d-block mb-4 fw-medium mobile-link"
+								>Portfolio</a
+							>
+						</li>
+						<li>
+							<a
+								href="#marketing"
+								class="text-decoration-none text-white d-block fw-medium mobile-link"
+								>About</a
+							>
+						</li>
+					</ul>
+				</nav>
+				<div class="book d-flex align-items-center py-4 position-relative">
+					<div>
+						<p class="lead fw-bold text-white mb-2">
+							How to be a
+							<span class="text-orange">web accessibility ninja</span>.
+						</p>
+						<a
+							href="#"
+							class="small d-flex align-items-baseline gap-2 chevron-link fw-medium"
+							>Check it out <i class="fa-solid fa-chevron-right fa-xs"></i
+						></a>
+					</div>
+					<figure>
+						<img src="/assets/book.png" alt="" class="w-100" />
+					</figure>
+				</div>
+				<nav class="d-flex align-self-baseline gap-4 py-3">
+					<p class="h5 text-white">Stalk me</p>
+					<ul class="list-unstyled d-flex align-items-center gap-4 socials">
+						<li>
+							<a href="/" target="_blank" rel="noreferrer noopener"
+								><span class="sr-only">Facebook</span
+								><i class="fab fa-facebook-f text-accent fa-lg"></i
+							></a>
+						</li>
+						<li>
+							<a href="/" target="_blank" rel="noreferrer noopener"
+								><span class="sr-only">Linkedin</span
+								><i class="fab fa-linkedin-in text-accent fa-lg"></i
+							></a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+			<section
+				class="main-banner d-flex flex-column align-items-center overflow-hidden"
+			>
+				<div
+					class="container d-flex flex-column-reverse flex-grow-1 justify-content-center position-relative"
+				>
+					<img
+						src="/assets/min-image1.png"
+						alt="a website displaying a hero section, navigation, image of a kid, and text"
+						class="main-banner__img"
+					/>
+					<img
+						src="/assets/mobile-hero.png"
+						alt="a mobile screen showing a website"
+						class="main-banner__img-2 position-absolute d-none d-xl-block"
+					/>
+					<div class="row">
+						<div class="col-lg-6 mb-6 position-relative main-col">
+							<header>
+								<h1 class="mb-4">
+									Join the pixel party<span class="text-orange">.</span>
+								</h1>
+								<p class="lead mb-4">
+									I make pretty things, that <s>sometimes</s> usually work.
+								</p>
+								<a href="#" class="btn btn-primary">Go on, hire me</a>
+							</header>
+						</div>
+						<div
+							class="d-none col-xl-3 col-xxl-2 d-xl-flex flex-xl-column offset-xl-2 justify-content-xxl-end position-relative second-col"
+						>
+							<p class="lead font-bold text-white mb-0">
+								From my <span class="text-orange">portfolio</span>.
+							</p>
+							<a
+								href="#portfolio"
+								class="small d-flex align-items-baseline gap-2 chevron-link"
+								>See more of my work
+								<i class="fa-solid fa-chevron-right fa-xs"></i
+							></a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="brands py-5">
+				<div class="container">
+					<div class="row align-items-lg-center">
+						<div class="col-lg-5">
+							<header class="mb-5 mb-lg-0">
+								<h2>
+									Brands I've worked with<span class="text-orange">.</span
+									><span class="text-accent">.</span
+									><span class="text-btn-color">.</span>
+								</h2>
+								<p>(among others)</p>
+							</header>
+						</div>
+						<div class="col-lg-7">
+							<ul
+								class="list-unstyled d-flex flex-wrap justify-content-center align-items-center gap-3 brands-list"
+							>
+								<li><img src="/assets/nhs-logo.png" alt="NHS Logo" /></li>
+								<li>
+									<img
+										src="/assets/access_Volcanic_Light.png"
+										alt="Volcanic Logo"
+									/>
+								</li>
+								<li>
+									<img src="/assets/logo.png" alt="Reed Logo" />
+								</li>
+								<li>
+									<img src="/assets/Group 7.png" alt="Reed Logo" />
+								</li>
+								<li>
+									<img
+										src="/assets/the-fyzz-facility-logo.png"
+										alt="The fyzz facility Logo"
+									/>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section
+				class="services bg-purple position-relative overflow-hidden"
+				id="services"
+			>
+				<span class="pattern position-absolute d-none d-lg-block"></span>
+				<div class="container">
+					<h2 class="mb-5 d-xl-none">
+						A non exhaustive list of what I can do for you during working hours
+						<span class="text-orange">.</span>
+					</h2>
+					<div class="row align-items-lg-center">
+						<div class="col-xl-7 px-xl-0">
+							<ul class="list-unstyled row services-list">
+								<li
+									class="col-lg-4 d-flex flex-md-column gap-5 gap-lg-0 mb-5 pb-5 px-xl-3"
+								>
+									<img
+										src="/assets/digital-design.svg"
+										alt="digital design logo"
+										class="mb-auto mb-lg-0"
+									/>
+									<div>
+										<header class="mt-md-5">
+											<h3 class="position-relative mb-4">Digital Design</h3>
+										</header>
+										<ul class="d-flex flex-column list-unstyled gap-2">
+											<li>Web Design</li>
+											<li>Interactive prototyping</li>
+											<li>UI design for digital products</li>
+											<li>Graphic design for digital media</li>
+											<li>Animated graphics and video content</li>
+										</ul>
+									</div>
+								</li>
+								<li
+									class="col-lg-4 d-flex flex-md-column gap-5 gap-lg-0 mb-5 pb-5 px-xl-3"
+								>
+									<img
+										src="/assets/branding.svg"
+										alt="Branding logo"
+										class="mb-auto mb-lg-0"
+									/>
+									<header class="mt-md-5">
+										<h3 class="position-relative mb-4">Branding</h3>
+										<ul class="d-flex flex-column list-unstyled gap-2">
+											<li>
+												Brand identity from logos to full brand guidelines
+											</li>
+										</ul>
+									</header>
+								</li>
+								<li
+									class="col-lg-4 d-flex flex-md-column gap-5 gap-lg-0 mb-5 pb-5 px-xl-3"
+								>
+									<img
+										src="/assets/marketing.svg"
+										alt="Marketing logo"
+										class="mb-auto mb-lg-0"
+									/>
+									<header class="mt-md-5">
+										<h3 class="position-relative mb-4">Marketing</h3>
+										<ul class="d-flex flex-column list-unstyled gap-2">
+											<li>Print or digital promotional material</li>
+											<li>Social media ads</li>
+											<li>Packaging design</li>
+										</ul>
+									</header>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xl-5">
+							<h2 class="mb-4 d-none d-xl-block">
+								A non exhaustive list of what I can do for you during working
+								hours <span class="text-orange">.</span>
+							</h2>
+							<p class="mb-4 lead">
+								My design services are the perfect blend of creativity,
+								strategy, and awesomeness, guaranteed to make you smile. I'd
+								least, I'd like to think so.
+							</p>
+							<a href="#" class="btn btn-primary mb-3">Go on, hire me</a>
+							<p>(AKA Hire me please)</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="portfolio-marketing overflow-hidden position-relative">
+				<span class="pattern-middle d-none d-lg-block"></span>
+				<span class="pattern-footer d-none d-lg-block"></span>
+				<section class="portfolio bg-purple overflow-hidden" id="portfolio">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-7">
+								<header class="mb-5 text-center">
+									<h2 class="mb-4">
+										Random pieces of work<span class="text-orange">.</span>
+									</h2>
+									<p class="lead">
+										You weren’t expecting everything from the last 20 years to
+										be here, right? This is a random small selection of
+										different projects I’ve worked on in the past, to get you
+										going. Have fun!
+									</p>
+								</header>
+							</div>
+						</div>
+						<ul
+							class="nav d-inline-block w-100 pb-4 text-center"
+							id="portfolio_tabs"
+							role="tablist"
+						>
+							<li class="nav-item d-inline-block" role="presentation">
+								<button
+									class="active bg-transparent fw-bold border-0 btn-control"
+									id="websites-tab"
+									data-bs-toggle="tab"
+									data-bs-target="#websites"
+									type="button"
+									role="tab"
+									aria-controls="websites"
+									aria-selected="true"
+								>
+									Websites
+								</button>
+							</li>
+							<li class="nav-item d-inline-block" role="presentation">
+								<button
+									class="bg-transparent fw-bold border-0 btn-control"
+									id="animated-videos-tab"
+									data-bs-toggle="tab"
+									data-bs-target="#animated-videos"
+									type="button"
+									role="tab"
+									aria-controls="animated-videos"
+									aria-selected="true"
+								>
+									Animated videos
+								</button>
+							</li>
+							<li class="nav-item d-inline-block" role="presentation">
+								<button
+									class="bg-transparent fw-bold border-0 btn-control"
+									id="graphic-design-tab"
+									data-bs-toggle="tab"
+									data-bs-target="#graphic-design"
+									type="button"
+									role="tab"
+									aria-controls="graphic-design"
+									aria-selected="true"
+								>
+									Graphic design
+								</button>
+							</li>
+							<li class="nav-item d-inline-block" role="presentation">
+								<button
+									class="bg-transparent fw-bold border-0 btn-control"
+									id="branding-tab"
+									data-bs-toggle="tab"
+									data-bs-target="#branding"
+									type="button"
+									role="tab"
+									aria-controls="branding"
+									aria-selected="true"
+								>
+									Branding
+								</button>
+							</li>
+							<li class="nav-item d-inline-block" role="presentation">
+								<button
+									class="bg-transparent fw-bold border-0 btn-control"
+									id="promotional-tab"
+									data-bs-toggle="tab"
+									data-bs-target="#promotional"
+									type="button"
+									role="tab"
+									v
+									aria-controls="promotional"
+									aria-selected="true"
+								>
+									Promotional
+								</button>
+							</li>
+						</ul>
+						<div class="tab-content projects mt-4" id="portfolio-content">
+							<div
+								class="tab-pane fade show active glide glide-1"
+								id="websites"
+								role="tabpanel"
+								aria-labelledby="websites-tab"
+							>
+								<!-- copy from here -->
+								<div class="glide__track glide-track" data-glide-el="track">
+									<ul class="projects-list glide__slides">
+										<li class="project h-100 item-1" role="option">
+											<img
+												class="project-img"
+												src="/assets/project1.png"
+												alt=""
+											/>
+											<div>
+												<h3 class="h6 mt-2">Name of client</h3>
+												<a href="/" class="chevron-link stretched-link"
+													>Visit site
+													<i class="fa-solid fa-chevron-right fa-xs"></i
+												></a>
+											</div>
+										</li>
+										<li class="project h-100 item-2" role="option">
+											<img
+												class="project-img"
+												src="/assets/project2.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-3" role="option">
+											<img
+												class="project-img"
+												src="/assets/project3.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-4" role="option">
+											<img
+												class="project-img"
+												src="/assets/project4.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-5" role="option">
+											<img
+												class="project-img"
+												src="/assets/project5.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-6" role="option">
+											<img
+												class="project-img"
+												src="/assets/project6.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-7" role="option">
+											<img
+												class="project-img"
+												src="/assets/project7.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+									</ul>
+								</div>
+								<!-- copy end -->
+							</div>
+							<div
+								class="tab-pane fade show glide glide-2"
+								id="animated-videos"
+								role="tabpanel"
+								aria-labelledby="animated-videos-tab"
+							>
+								<!-- copy from here -->
+								<div class="glide__track glide-track" data-glide-el="track">
+									<ul class="projects-list glide__slides">
+										<li class="project h-100 item-1" role="option">
+											<img
+												class="project-img"
+												src="/assets/project1.png"
+												alt=""
+											/>
+											<div>
+												<h3 class="h6 mt-2">Name of client</h3>
+												<a href="/" class="chevron-link stretched-link"
+													>Visit site
+													<i class="fa-solid fa-chevron-right fa-xs"></i
+												></a>
+											</div>
+										</li>
+										<li class="project h-100 item-2" role="option">
+											<img
+												class="project-img"
+												src="/assets/project2.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-3" role="option">
+											<img
+												class="project-img"
+												src="/assets/project3.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-4" role="option">
+											<img
+												class="project-img"
+												src="/assets/project4.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-5" role="option">
+											<img
+												class="project-img"
+												src="/assets/project5.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-6" role="option">
+											<img
+												class="project-img"
+												src="/assets/project6.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-7" role="option">
+											<img
+												class="project-img"
+												src="/assets/project7.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+									</ul>
+								</div>
+								<!-- copy end -->
+							</div>
+							<div
+								class="tab-pane fade show glide glide-3"
+								id="graphic-design"
+								role="tabpanel"
+								aria-labelledby="graphic-design-tab"
+							>
+								<!-- copy from here -->
+								<div class="glide__track glide-track" data-glide-el="track">
+									<ul class="projects-list glide__slides">
+										<li class="project h-100 item-1" role="option">
+											<img
+												class="project-img"
+												src="/assets/project1.png"
+												alt=""
+											/>
+											<div>
+												<h3 class="h6 mt-2">Name of client</h3>
+												<a href="/" class="chevron-link stretched-link"
+													>Visit site
+													<i class="fa-solid fa-chevron-right fa-xs"></i
+												></a>
+											</div>
+										</li>
+										<li class="project h-100 item-2" role="option">
+											<img
+												class="project-img"
+												src="/assets/project2.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-3" role="option">
+											<img
+												class="project-img"
+												src="/assets/project3.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-4" role="option">
+											<img
+												class="project-img"
+												src="/assets/project4.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-5" role="option">
+											<img
+												class="project-img"
+												src="/assets/project5.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-6" role="option">
+											<img
+												class="project-img"
+												src="/assets/project6.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-7" role="option">
+											<img
+												class="project-img"
+												src="/assets/project7.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+									</ul>
+								</div>
+								<!-- copy end -->
+							</div>
+							<div
+								class="tab-pane fade show glide glide-4"
+								id="branding"
+								role="tabpanel"
+								aria-labelledby="branding-tab"
+							>
+								<!-- copy from here -->
+								<div class="glide__track glide-track" data-glide-el="track">
+									<ul class="projects-list glide__slides">
+										<li class="project h-100 item-1" role="option">
+											<img
+												class="project-img"
+												src="/assets/project1.png"
+												alt=""
+											/>
+											<div>
+												<h3 class="h6 mt-2">Name of client</h3>
+												<a href="/" class="chevron-link stretched-link"
+													>Visit site
+													<i class="fa-solid fa-chevron-right fa-xs"></i
+												></a>
+											</div>
+										</li>
+										<li class="project h-100 item-2" role="option">
+											<img
+												class="project-img"
+												src="/assets/project2.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-3" role="option">
+											<img
+												class="project-img"
+												src="/assets/project3.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-4" role="option">
+											<img
+												class="project-img"
+												src="/assets/project4.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-5" role="option">
+											<img
+												class="project-img"
+												src="/assets/project5.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-6" role="option">
+											<img
+												class="project-img"
+												src="/assets/project6.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-7" role="option">
+											<img
+												class="project-img"
+												src="/assets/project7.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+									</ul>
+								</div>
+								<!-- copy end -->
+							</div>
+							<div
+								class="tab-pane fade show glide glide-5"
+								id="promotional"
+								role="tabpanel"
+								aria-labelledby="promotional-tab"
+							>
+								<!-- copy from here -->
+								<div class="glide__track glide-track" data-glide-el="track">
+									<ul class="projects-list glide__slides">
+										<li class="project h-100 item-1" role="option">
+											<img
+												class="project-img"
+												src="/assets/project1.png"
+												alt=""
+											/>
+											<div>
+												<h3 class="h6 mt-2">Name of client</h3>
+												<a href="/" class="chevron-link stretched-link"
+													>Visit site
+													<i class="fa-solid fa-chevron-right fa-xs"></i
+												></a>
+											</div>
+										</li>
+										<li class="project h-100 item-2" role="option">
+											<img
+												class="project-img"
+												src="/assets/project2.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-3" role="option">
+											<img
+												class="project-img"
+												src="/assets/project3.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-4" role="option">
+											<img
+												class="project-img"
+												src="/assets/project4.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-5" role="option">
+											<img
+												class="project-img"
+												src="/assets/project5.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-6" role="option">
+											<img
+												class="project-img"
+												src="/assets/project6.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+										<li class="project h-100 item-7" role="option">
+											<img
+												class="project-img"
+												src="/assets/project7.png"
+												alt=""
+											/>
+											<h3 class="h6 mt-2">Name of client</h3>
+											<a href="/" class="chevron-link stretched-link"
+												>Visit site
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</li>
+									</ul>
+								</div>
+								<!-- copy end -->
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="marketing bg-purple" id="marketing">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-6 col-xl-5 mb-5">
+								<article>
+									<header class="mb-4">
+										<h2>
+											Geographer turned into a biologist working as a web
+											designer<span class="text-orange">.</span>
+										</h2>
+									</header>
+									<p class="lead mb-4">
+										Because why not? I actually started as a print designer
+										making magazines, newspapers, brochures… all the lovely
+										things you can get your hands on. Because let’s face it,
+										websites and all are cool but you can’t actually feel them
+										or touch them. This is what makes print works unique. You
+										see the end result right in front of you, feeling all proud.
+										I’m moving away from the point, but I thought I’d give you
+										some wisdom.
+									</p>
+									<a href="#" class="btn btn-primary">Chat with me</a>
+								</article>
+							</div>
+							<div class="col-lg-6 offset-xl-1">
+								<div
+									class="d-flex flex-column flex-lg-row align-items-center right-col gap-3 h-100"
+								>
+									<figure class="marketing-img mb-4 mb-lg-0">
+										<img src="/assets/image-bottom.png" alt="" />
+									</figure>
+									<div
+										class="d-flex flex-column justify-content-end h-100 right-col-text"
+									>
+										<div class="mb-5 position-relative text-container">
+											<h3 class="mb-2 h4">
+												I also wrote a <span class="text-orange">book</span> in
+												the process.
+											</h3>
+											<span class="arrow-book"></span>
+											<a
+												href="#"
+												class="small d-flex align-items-baseline gap-2 chevron-link"
+												>Check it out
+												<i class="fa-solid fa-chevron-right fa-xs"></i
+											></a>
+										</div>
+										<figure class="book-figure">
+											<img src="/assets/book.png" alt="" />
+										</figure>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<footer class="footer py-4 bg-purple">
+					<div class="container">
+						<div class="row justify-content-md-between">
+							<div
+								class="col-md-4 d-flex flex-column align-items-center d-md-block"
+							>
+								<a class="footer-logo mb-4" href="/"
+									><span class="sr-only">Logo</span></a
+								>
+								<p>Copyright 2023 | All right reserved.</p>
+							</div>
+							<div
+								class="col-md-5 d-flex flex-column align-items-center align-items-md-end"
+							>
+								<nav class="d-flex justify-content-md-end gap-4">
+									<p class="h5 text-white">Stalk me</p>
+									<ul
+										class="list-unstyled d-flex align-items-center gap-4 socials"
+									>
+										<li>
+											<a href="/" target="_blank" rel="noreferrer noopener"
+												><span class="sr-only">Facebook</span
+												><i class="fab fa-facebook-f text-accent fa-lg"></i
+											></a>
+										</li>
+										<li>
+											<a href="/" target="_blank" rel="noreferrer noopener"
+												><span class="sr-only">Linkedin</span
+												><i class="fab fa-linkedin-in text-accent fa-lg"></i
+											></a>
+										</li>
+									</ul>
+								</nav>
+								<p class="d-inline-block">
+									Website design by Dimitris Georgakas
+								</p>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+		</main>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/glide.min.js"
+			integrity="sha512-IkLiryZhI6G4pnA3bBZzYCT9Ewk87U4DGEOz+TnRD3MrKqaUitt+ssHgn2X/sxoM7FxCP/ROUp6wcxjH/GcI5Q=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="/js/main.js"></script>
+	</body>
+</html>

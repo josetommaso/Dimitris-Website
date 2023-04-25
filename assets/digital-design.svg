@@ -1,0 +1,20 @@
+<svg width="101" height="100" viewBox="0 0 101 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="digital-design">
+<rect id="Rectangle" x="0.116974" width="13.1672" height="13.1672" fill="#26A6A7"/>
+<rect id="Rectangle Copy 9" x="87.337" y="0.387271" width="12.3927" height="12.3927" stroke="#F5712C" stroke-width="0.774543"/>
+<rect id="Rectangle Copy 10" x="0.504245" y="87.22" width="12.3927" height="12.3927" stroke="#F5712C" stroke-width="0.774543"/>
+<rect id="Rectangle Copy 11" x="86.9497" y="86.8328" width="13.1672" height="13.1672" fill="#F5712C"/>
+<path id="Path 7" d="M13.2842 6.58362H86.9497" stroke="white" stroke-width="0.774543"/>
+<path id="Path 7 Copy 3" d="M13.2842 93.4163H86.9497" stroke="white" stroke-width="0.774543"/>
+<path id="Path 7 Copy" d="M6.70059 13.1672V86.8328" stroke="white" stroke-width="0.774543"/>
+<path id="Path 7 Copy 2" d="M93.5334 13.1672V86.8328" stroke="white" stroke-width="0.774543"/>
+<g id="A">
+<path id="Shape" fill-rule="evenodd" clip-rule="evenodd" d="M62.9333 66.182C63.6382 68.226 64.39 70.3053 65.1888 72.4198H72.66C70.7805 67.251 69.0184 62.4699 67.3738 58.0764C65.7292 53.6829 64.1198 49.5127 62.5457 45.5656C60.9715 41.6185 59.4092 37.8477 57.8585 34.253C56.3079 30.6583 54.6868 27.0989 52.9952 23.5748H46.7222C45.0306 27.0989 43.4094 30.6583 41.8588 34.253C40.3082 37.8477 38.7458 41.6185 37.1717 45.5656C35.5975 49.5127 33.9882 53.6829 32.3435 58.0764C30.6989 62.4699 28.9368 67.251 27.0573 72.4198H34.1761L38.6166 59.9442H60.7484C61.5002 62.0587 62.2285 64.138 62.9333 66.182ZM54.2991 42.4291C55.7793 46.2587 57.2712 50.2175 58.7748 54.3055H40.5901C42.0468 50.2175 43.5152 46.2587 44.9953 42.4291C46.4755 38.5995 48.0378 34.9226 49.6825 31.3984C51.2801 34.9226 52.819 38.5995 54.2991 42.4291Z" fill="white"/>
+</g>
+<path id="Path 8" fill-rule="evenodd" clip-rule="evenodd" d="M58.7748 54.3055L57.1169 59.9442H31.6269L33.7716 54.3055H58.7748Z" fill="#BE2B52"/>
+<path id="Path 9" fill-rule="evenodd" clip-rule="evenodd" d="M40.5901 54.3055L38.6166 59.9442H45.7476L47.3131 54.3055H40.5901Z" fill="#266B74"/>
+<path id="Path 9 Copy" fill-rule="evenodd" clip-rule="evenodd" d="M46.7094 54.3055L44.7358 59.9442H51.8669L53.4324 54.3055H46.7094Z" fill="#27A6A7"/>
+<path id="Path 10" fill-rule="evenodd" clip-rule="evenodd" d="M58.7748 54.3055L60.7484 59.9442H58.1193L58.7748 54.3055Z" fill="#1B0C2F"/>
+<path id="Path 9 Copy 2" fill-rule="evenodd" clip-rule="evenodd" d="M53.2508 54.3055L51.2773 59.9442H58.4083L59.9738 54.3055H53.2508Z" fill="#F6A630"/>
+</g>
+</svg>
