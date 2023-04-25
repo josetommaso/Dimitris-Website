@@ -126,10 +126,10 @@ h3 {
   height: 44px;
 }
 .header #menu:not(.open) {
-  background: transparent url("/assets/mobile-menu.svg") no-repeat center/cover;
+  background: transparent url("../assets/mobile-menu.svg") no-repeat center/cover;
 }
 .header #menu.open {
-  background: transparent url("/assets/mobile-menu-close.svg") no-repeat center/cover;
+  background: transparent url("../assets/mobile-menu-close.svg") no-repeat center/cover;
 }
 .header .navigation a.nav-link {
   color: #8b8593;
@@ -153,7 +153,7 @@ h3 {
 .header .main-logo {
   width: 170px;
   height: 41px;
-  background: transparent url("/assets/logo-main.svg") no-repeat center/cover;
+  background: transparent url("../assets/logo-main.svg") no-repeat center/cover;
   display: block;
 }
 @media screen and (min-width: 768px) {
@@ -191,12 +191,12 @@ h3 {
   height: 1px;
 }
 #mobile-menu .btn-mobile::before {
-  background: transparent url("/assets/top-line-mobile.svg") no-repeat center/cover;
+  background: transparent url("../assets/top-line-mobile.svg") no-repeat center/cover;
   top: 0;
 }
 #mobile-menu .btn-mobile::after {
   bottom: 0;
-  background: transparent url("/assets/bottom-line-mobile.svg") no-repeat center/cover;
+  background: transparent url("../assets/bottom-line-mobile.svg") no-repeat center/cover;
 }
 #mobile-menu .book::after, #mobile-menu .book::before {
   content: "";
@@ -207,17 +207,17 @@ h3 {
   height: 1px;
 }
 #mobile-menu .book::before {
-  background: transparent url("/assets/accent-line-mobile.svg") no-repeat center/cover;
+  background: transparent url("../assets/accent-line-mobile.svg") no-repeat center/cover;
   top: 0;
 }
 #mobile-menu .book::after {
   bottom: 0;
-  background: transparent url("/assets/red-line-mobile.svg") no-repeat center/cover;
+  background: transparent url("../assets/red-line-mobile.svg") no-repeat center/cover;
 }
 
 .main-banner {
   min-height: 400px;
-  background: transparent url("/assets/hero-bg.svg") no-repeat center center/cover;
+  background: transparent url("../assets/hero-bg.svg") no-repeat center center/cover;
   padding-top: 10rem;
 }
 .main-banner__img-2 {
@@ -252,7 +252,7 @@ h3 {
     display: block;
     width: 90px;
     height: 96px;
-    background: transparent url("/assets/arrow-hero-left.svg") no-repeat center/contain;
+    background: transparent url("../assets/arrow-hero-left.svg") no-repeat center/contain;
     position: absolute;
     top: 90px;
     right: 80px;
@@ -263,7 +263,7 @@ h3 {
     display: block;
     width: 90px;
     height: 96px;
-    background: transparent url("/assets/arrow-hero-right.svg") no-repeat center/contain;
+    background: transparent url("../assets/arrow-hero-right.svg") no-repeat center/contain;
     position: absolute;
     top: -100px;
     right: 50px;
@@ -330,7 +330,7 @@ h3 {
   left: 25%;
   width: 665px;
   height: 190px;
-  background: transparent url("/assets/pattern-services.svg") no-repeat center/contain;
+  background: transparent url("../assets/pattern-services.svg") no-repeat center/contain;
 }
 .services .row {
   z-index: 2;
@@ -394,7 +394,7 @@ h3 {
 .pattern-middle {
   position: absolute;
   right: -210px;
-  background: transparent url("/assets/pattern-middle.svg") center/cover;
+  background: transparent url("../assets/pattern-middle.svg") center/cover;
   width: 685px;
   height: 370px;
   bottom: 33%;
@@ -405,7 +405,7 @@ h3 {
 .pattern-footer {
   position: absolute;
   left: 0;
-  background: transparent url("/assets/pattern-footer.svg") center/cover;
+  background: transparent url("../assets/pattern-footer.svg") center/cover;
   width: 130px;
   height: 500px;
   bottom: 5px;
@@ -415,7 +415,7 @@ h3 {
 
 .portfolio {
   padding: 5rem 0;
-  background: #170b27 url("/assets/portfolio-bg.svg") center/cover;
+  background: #170b27 url("../assets/portfolio-bg.svg") center/cover;
   /* Style the scrollbar for Chrome and WebKit-based browsers */
   /* Style the scrollbar for other browsers */
 }
@@ -499,11 +499,11 @@ h3 {
   color: white;
 }
 .portfolio #portfolio_tabs li button.active:after {
-  background: transparent url("/assets/bottom-line.png") center/cover;
+  background: transparent url("../assets/bottom-line.png") center/cover;
   bottom: -10px;
 }
 .portfolio #portfolio_tabs li button.active:before {
-  background: transparent url("/assets/top-line.png") center/cover;
+  background: transparent url("../assets/top-line.png") center/cover;
   top: -10px;
 }
 @media screen and (min-width: 768px) {
@@ -583,7 +583,7 @@ h3 {
 .marketing .arrow-book {
   width: 35px;
   height: 100px;
-  background: transparent url("/assets/arrow-book.svg") center/cover;
+  background: transparent url("../assets/arrow-book.svg") center/cover;
   position: absolute;
   right: -20px;
   top: 70px;
@@ -614,7 +614,7 @@ h3 {
 .footer .footer-logo {
   width: 200px;
   height: 30px;
-  background: transparent url("/assets/logo-footer.svg") center/cover;
+  background: transparent url("../assets/logo-footer.svg") center/cover;
   display: block;
 }
 .footer .socials a i {
