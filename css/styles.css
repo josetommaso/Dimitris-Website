@@ -394,7 +394,7 @@ h3 {
 .pattern-middle {
   position: absolute;
   right: -210px;
-  background: transparent url(/assets/pattern-middle.svg) center/cover;
+  background: transparent url("/assets/pattern-middle.svg") center/cover;
   width: 685px;
   height: 370px;
   bottom: 33%;
@@ -405,7 +405,7 @@ h3 {
 .pattern-footer {
   position: absolute;
   left: 0;
-  background: transparent url(/assets/pattern-footer.svg) center/cover;
+  background: transparent url("/assets/pattern-footer.svg") center/cover;
   width: 130px;
   height: 500px;
   bottom: 5px;
